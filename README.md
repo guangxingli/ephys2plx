@@ -9,6 +9,6 @@ The two mex files ("ephys2plx\_mex.mexmaci64" and "ephys2plx\_mex.mexw64") are c
 To compile the ephys2plx_mex.c file:
 
 1. start Matlab
-2. if you haven't selected a C compiler, you could execute 'mex -setup' in matlab Command Window to select one.
+2. if you haven't selected a C compiler, you could execute **mex -setup** in matlab Command Window to select one.
 (if you haven't installed a C compiler on your computer, probably Windows system, you could find a supported and compatible compilers for the Matlab version you are using from [MathWorks](http://www.mathworks.com). Here is a list of compatible compilers for Matlab 2014a [Supported and Compatible Compilers – Release 2014a](http://www.mathworks.com/support/compilers/R2014a/))
-3. execute 'mex ephys2plx_mex.c' in matlab Command Window
+3. execute **mex ephys2plx_mex.c** in matlab Command Window
