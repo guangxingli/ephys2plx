@@ -20,7 +20,7 @@ clear electrodeName SpikeFileName;
 
 %Continuous Channels
 for i=1:size(ephysInfo.processors,1)
-    if strcmp(ephysInfo.processors{i,2},'Sources/Rhythm FPGA')
+    if strcmp(ephysInfo.processors{i,2},ConProcessor)
         FileNames{3,1}=cell(size(ephysInfo.processors{i,3},2),2);
         FileHeaders{3,1}=cell(size(ephysInfo.processors{i,3},2),1);
         for j=1:size(ephysInfo.processors{i,3},2)

@@ -10,6 +10,7 @@
 %         1.2       July 18, 2014 - Guangxing Li (auto generate plexon
 %                                   filename)
  
+ConProcessor = 'Sources/Rhythm FPGA';
 
 ephysConv;   %get .xml file, and read information
 
